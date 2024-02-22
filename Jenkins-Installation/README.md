@@ -24,19 +24,26 @@ Jenkins is an open-source automation server that automates the repetitive techni
 
 ### Step 4 — Setting Up Jenkins
 
-To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://your_server_ip_or_domain:8080
+#### To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://your_server_ip_or_domain:8080
 
-You should receive the Unlock Jenkins screen, which displays the location of the initial password:
-![You should receive the Unlock Jenkins screen, which displays the location of the initial password:](assets/unlock-jenkins.png)
+#### You should receive the Unlock Jenkins screen, which displays the location of the initial password:
 
-### In the terminal window, use the cat command to display the password. Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.:
+![](assets/unlock-jenkins.png)
 
+#### In the terminal window, use the cat command to display the password. Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.:
     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-![The next screen presents the option of installing suggested plugins or selecting specific plugins:](assets/customize_jenkins_screen_two.png)
-We’ll click the Install suggested plugins option, which will immediately begin the installation process.
+#### The next screen presents the option of installing suggested plugins or selecting specific plugins:
+![](assets/customize_jenkins_screen_two.png)
+
+#### We’ll click the Install suggested plugins option, which will immediately begin the installation process.
 ![](assets/jenkins_plugin_install_two.png)
-After Installation is completed, the Below window will be displayed:
-![Enter the name and password for your user and click save and Continue Button:](assets/User_Registration.png)
-![You’ll receive an Instance Configuration page that will ask you to confirm the preferred URL for your Jenkins instance. Confirm either the domain name for your server or your server’s IP address:](assets/Instance_Conifguration.png)
-![click save and finish Button. You’ll receive a confirmation page confirming that “Jenkins is Ready!”:](assets/Getting_started.png)
+
+#### After Installation is completed, the Below window will be displayed, Enter the name and password for your user and click save and Continue Button:
+![](assets/User_Registration.png)
+
+#### You’ll receive an Instance Configuration page that will ask you to confirm the preferred URL for your Jenkins instance. Confirm either the domain name for your server or your server’s IP address:
+![](assets/Instance_Conifguration.png)
+
+#### click save and finish Button. You’ll receive a confirmation page confirming that “Jenkins is Ready!”:
+![](assets/Getting_started.png)
